@@ -1,0 +1,22 @@
+
+@import "base";
+
+// BEM Components
+@import "component/book";
+@import "component/checklist";
+@import "component/clipboard";
+@import "component/clock";
+@import "component/code";
+@import "component/computer";
+@import "component/desk";
+@import "component/file";
+@import "component/hr";
+@import "component/lamp";
+@import "component/plant";
+@import "component/shelf";
+@import "component/window";
+
+// All components in app directory
+@import '../../app/**/*.scss';
+// All components in component directory
+@import "../../component/**/*.scss";
