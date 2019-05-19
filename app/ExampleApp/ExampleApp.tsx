@@ -16,8 +16,8 @@ export class ExampleApp extends AbstractComponent<ExampleAppProps, {}>
 	public constructor(props: ExampleAppProps, state: {})
 	{
 		super(props, state);
-		let something = this.getPhusion();
-		console.log('something', something);
+		let phusion = this.getPhusion();
+		console.log('phusion: ', phusion);
 	}
 
 	render() {
