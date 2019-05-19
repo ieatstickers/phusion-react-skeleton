@@ -31,7 +31,7 @@ const projectRoot = process.env['PROJECT_ROOT_DIR'];
 const devServerTask = new DevServerTask(
   {
     browserSyncConfig: {
-      host: 'example.local',
+      // host: 'example.local',
       open: 'external',
       serveStatic: [ outputBuildDir ],
       watch: [ outputBuildDir + '/**/*' ]
